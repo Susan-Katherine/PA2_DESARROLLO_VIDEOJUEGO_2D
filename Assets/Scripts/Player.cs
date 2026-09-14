@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb2D;
     private float move;
 
-    public float jumpForce = 5;
+    public float jumpForce = 6;
     private bool isGrounded;
     public Transform groundCheck;
     public float groundRadius = 0.1f;
